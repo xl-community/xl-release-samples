@@ -2,5 +2,9 @@
 <synthetic xsi:schemaLocation="http://www.xebialabs.com/deployit/synthetic synthetic.xsd" xmlns="http://www.xebialabs.com/deployit/synthetic" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <type type="acme.MysqlReportingExportHook" extends="xlrelease.JdbcExportHook" />
+  
+  <!-- *** IMPORTANT: You must run the xlr-sample-mySQL-DB.sql to set up a MySQL database instance to use this script!!  ***** -->
+  <!-- ***            once MySQL instance set up, uncomment export hook to invoke <XL_RELEASE>/ext/acme/MysqlExportHook.py     -->
+  <!-- <type type="acme.MysqlExportHook" extends="xlrelease.JdbcExportHook" />  -->
 
 </synthetic>
